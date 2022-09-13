@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
 import RetailplusLogo from './app/assets/img/retailpluslogo.png';
+import EventCard from './features/specialevents/EventCard';
+import { EVENTS } from './app/shared/EVENTS' 
 
 function App() {
   return (
@@ -13,7 +15,7 @@ function App() {
           </NavbarBrand>
         </Container>
       </Navbar>
-      Just getting started!
+      <EventCard event={EVENTS[0]} />
     </div>
   );
 }
