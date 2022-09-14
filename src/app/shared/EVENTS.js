@@ -24,7 +24,7 @@ export const EVENTS = [
     },
     {
         id: 2,
-        name: 'Supreme',
+        name: 'Supreme x Micheal Jackson',
         image: supremeImg,
         capacity: 101,
         featured: false,
